@@ -1,0 +1,868 @@
+@font-face {
+  font-family: Open_sans;
+  src: url("../Font/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../Font/utm-bryantlg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url("../Font/utm-bryantlg-b.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  width: 100%;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  display: inline;
+}
+
+.navbar-toggler.collapsed .close-icon {
+  display: none;
+}
+
+.menu-header {
+  margin-bottom: 50px;
+}
+.menu-header li {
+  padding-left: 10px;
+  margin-top: 12px;
+}
+
+.menu-header .nav-link {
+  text-decoration: none;
+  font: normal bold 15px/19px "Open-sans";
+  text-transform: uppercase;
+  color: #505353 !important;
+  padding: 7px 15px 8px 20px;
+}
+.menu-header .nav-link:hover {
+  color: white !important;
+  background-color: #B2D235;
+  border-radius: 17px;
+}
+
+p, .header-content .slogan-down, .content .slogan-up {
+  font-size: 45px;
+  color: #11114E;
+}
+
+.header-content {
+  margin-top: 15px;
+  background-image: url("../image/Hapo_Learn_banner.png");
+  background-size: cover;
+  height: 655px;
+}
+
+.content {
+  padding: 200px 0 0 5%;
+}
+.content .slogan-up {
+  margin: 0 0 0 59px;
+  font-family: UTM BryantLG;
+  -webkit-text-stroke: 1px #11114E;
+}
+
+.header-content .slogan-down {
+  margin: 0 0 0 60px;
+  font-weight: bold;
+  font-family: UTM BryantLG_B;
+  -webkit-text-stroke: 1px #11114E;
+}
+.header-content .slogan-down img {
+  width: 58px;
+  height: 43px;
+}
+
+.header-content pre {
+  margin: 20px 0 0 -50px;
+  font-family: UTM BryantLG;
+  color: #505353;
+  font-size: 20px;
+}
+.header-content a {
+  padding: 9px 34px 12px 36px;
+  align-items: center;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  font: normal bold 30px "UTM BryantLG_B";
+  color: white;
+  text-decoration: none;
+  font-family: UTM BryantLG_B;
+  -webkit-text-stroke: 1px white;
+  background-color: #B2D235;
+  height: 70px;
+  width: 377px;
+  border-radius: 35px;
+}
+.header-content a:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+.header-footer {
+  background-image: url("../image/background1.png");
+  height: 161px;
+}
+
+@font-face {
+  font-family: Open_sans;
+  src: url("../Font/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../Font/utm-bryantlg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url("../Font/utm-bryantlg-b.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+.course {
+  margin-top: -120px;
+}
+
+.backend-course .card, .frontend-course .card {
+  height: 470px;
+  border-radius: 15px 15px 0 0;
+  margin-left: 3%;
+}
+.backend-course .card .image, .frontend-course .card .image {
+  height: 215px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.frontend-course {
+  margin-top: -150px;
+}
+.frontend-course .card {
+  height: 395px;
+}
+.frontend-course .card .image {
+  height: 194px;
+}
+
+.card-body .card-title {
+  font: normal normal 30px "UTM BryabtLG";
+  color: #B2D235;
+  text-align: center;
+  -webkit-text-stroke: 0.5px #B2D235;
+}
+.card-body .card-text {
+  font: normal normal 14px "UTM BryantLG";
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #505353;
+  -webkit-text-stroke: 0.4px #505353;
+}
+
+.card-body a {
+  font: normal bold 18px/22px "UTM BryantLG_B";
+  color: white;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px white;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 9px 37px 11px 36px;
+  background-color: #B2D235;
+  height: 42px;
+  width: 200px;
+  border-radius: 35px;
+}
+.card-body:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
+
+.html-course {
+  background: #3F6185;
+}
+
+.laravel-course {
+  background: #DC594C;
+}
+
+.php-course {
+  background: #556598;
+}
+
+.css-course {
+  background: #24ABE2;
+}
+.css-course img {
+  padding-top: 30px;
+}
+
+.ruby-course {
+  background: #E14E40;
+}
+
+.java-course {
+  background-color: #1B75BB;
+}
+
+.other-course {
+  margin: 70px 0 15px 30%;
+  letter-spacing: -0.02em;
+  color: #11114E;
+  -webkit-text-stroke: 0.5px #11114E;
+  width: 420px;
+  height: 250px;
+}
+
+.other-course p, .other-course .content .slogan-up, .content .other-course .slogan-up, .other-course .header-content .slogan-down, .header-content .other-course .slogan-down {
+  font: normal bold 65px "UTM BryantLG_B";
+  text-align: center;
+  border-radius: 3px;
+  border-bottom: 5px solid #B2D235;
+  -webkit-text-stroke: 0.5px #B2D235;
+}
+
+.all-of-course {
+  text-align: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.all-of-course a {
+  text-decoration: none;
+  color: #B2D235;
+  font: normal bold 45px "UTM BryantLG_B_B";
+  letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.5px #B2D235;
+}
+.all-of-course:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+
+@font-face {
+  font-family: Open_sans;
+  src: url("../Font/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../Font/utm-bryantlg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url("../Font/utm-bryantlg-b.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+.why-hapolearn {
+  height: 740px;
+  background-image: url("../image/BG.png");
+}
+.why-hapolearn .image img {
+  margin-top: -55%;
+}
+
+.why-hapo-content {
+  margin-top: -8%;
+}
+.why-hapo-content .menu {
+  margin: 4% 0 0 21%;
+}
+.why-hapo-content .why-hapolearn-img {
+  margin-left: -7%;
+}
+
+.menu p, .menu .content .slogan-up, .content .menu .slogan-up, .menu .header-content .slogan-down, .header-content .menu .slogan-down {
+  color: white;
+  font: normal bold 50px "UTM BryantLG_B";
+  -webkit-text-stroke: 0.5px white;
+}
+.menu li {
+  list-style-image: url("../image/li.png");
+  font: normal normal 20px "UTM BryantLG";
+  letter-spacing: -0.05em;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.why-hapo-header .why-header-slogan p, .why-hapo-header .why-header-slogan .content .slogan-up, .content .why-hapo-header .why-header-slogan .slogan-up, .why-hapo-header .why-header-slogan .header-content .slogan-down, .header-content .why-hapo-header .why-header-slogan .slogan-down {
+  margin-left: -80px;
+  color: white;
+  font: normal bold 45px "UTM BryantLG_B";
+  -webkit-text-stroke: 0.5px white;
+}
+
+.feed-back {
+  height: 650px;
+}
+
+.feed-back-slogan .fb-slogan-up p, .feed-back-slogan .fb-slogan-up .content .slogan-up, .content .feed-back-slogan .fb-slogan-up .slogan-up, .feed-back-slogan .fb-slogan-up .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-up .slogan-down {
+  color: #11114E;
+  border-bottom: 5px solid #B2D235;
+  border-radius: 3px;
+  -webkit-text-stroke: 1px #11114E;
+  font: bold 75px "UTM BryantLG_B";
+}
+.feed-back-slogan .fb-slogan-down p, .feed-back-slogan .fb-slogan-down .content .slogan-up, .content .feed-back-slogan .fb-slogan-down .slogan-up, .feed-back-slogan .fb-slogan-down .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-down .slogan-down {
+  color: #505353;
+  -webkit-text-stroke: 0.3px #505353;
+  font: 25px "UTM BryantLG";
+}
+
+.fb-user-content {
+  padding: 1.5em 1em;
+  border: 0.5px solid #E2E2E2;
+  box-shadow: 1px 1px 5px 0.5px #969694;
+  border-radius: 10px;
+}
+.fb-user-content p, .fb-user-content .content .slogan-up, .content .fb-user-content .slogan-up, .fb-user-content .header-content .slogan-down, .header-content .fb-user-content .slogan-down {
+  border-left: 5px solid #D9DADC;
+  font: 16px "UTM BryantLG";
+}
+
+.fb-user-content:after, .fb-user-content:before {
+  content: "";
+  border: solid transparent;
+  position: absolute;
+}
+.fb-user-content:after {
+  border-top-color: white;
+  border-width: 10px;
+  margin: 25px 0 0 22px;
+}
+.fb-user-content:before {
+  border-top-color: #E2E2E2;
+  border-width: 12px;
+  margin: 98px 0 0 20px;
+}
+
+.user-comment b {
+  font: normal bold 20px "UTM BryantLG_B";
+  color: #11114E;
+  -webkit-text-stroke: 0.3px #11114E;
+}
+.user-comment p, .user-comment .content .slogan-up, .content .user-comment .slogan-up, .user-comment .header-content .slogan-down, .header-content .user-comment .slogan-down {
+  font: normal bold 16px "UTM BryantLG_B";
+  color: #505353;
+}
+.user-comment .checked {
+  color: #F2C54F;
+}
+
+.control-next {
+  font-size: 20px;
+  padding: 0 5px;
+  margin-top: -195px;
+  color: #969494;
+}
+.control-next i {
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50%;
+  border: 0.5px solid #C4C4C4;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.next-left {
+  background-color: white;
+  margin-left: -5px;
+}
+
+.next-right {
+  margin-right: -12px;
+  background-color: white;
+}
+
+.start-learning {
+  background-image: url("../image/banner_content.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.start-learning p, .start-learning .content .slogan-up, .content .start-learning .slogan-up, .start-learning .header-content .slogan-down, .header-content .start-learning .slogan-down {
+  font: bolder 60px "UTM BryantLG";
+  color: white;
+  -webkit-text-stroke: 1px white;
+}
+
+.btn-start-learning a {
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  font: bolder 30px "UTM BryantLG_B";
+  color: #B2D235;
+  text-decoration: none;
+  background-color: white;
+  height: 70px;
+  width: 377px;
+  border-radius: 35px;
+}
+
+.statistic .statistic-slogan {
+  letter-spacing: -0.02em;
+  color: #11114E;
+  -webkit-text-stroke: 0.5px #11114E;
+  font: bold 70px "UTM BryantLG_B";
+  border-bottom: 4px solid #B2D235;
+  border-radius: 3px;
+}
+
+.start-menu .menu .menu-content {
+  font: bold 50px "UTM BryantLG_B";
+  letter-spacing: -0.05em;
+  color: #505353;
+}
+.start-menu .menu .number {
+  font: bold 50px "UTM BryantLG_B";
+  letter-spacing: -0.05em;
+  color: #B2D235;
+  -webkit-text-stroke: 0.4px #B2D235;
+}
+
+.hapolearn-footer {
+  background-color: #505353;
+}
+
+.hapolearn-footer .menu a:hover {
+  -webkit-text-stroke-width: 1px;
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: -20px;
+}
+.footer-text span {
+  font: 18px "UTM BryantLG";
+  color: white;
+  margin-top: -35px;
+}
+
+.menu-footer .menu-content ul {
+  list-style: none;
+}
+.menu-footer .menu-content ul a {
+  font: bold 20px "UTM BryantLG";
+  color: white;
+  text-decoration: none;
+}
+
+.footer-image ul {
+  list-style: none;
+}
+
+.footer-end {
+  position: absolute;
+  background-color: #454545;
+}
+.footer-end p, .footer-end .content .slogan-up, .content .footer-end .slogan-up, .footer-end .header-content .slogan-down, .header-content .footer-end .slogan-down {
+  text-align: center;
+  font: 16px/18px "UTM BryantLG";
+  color: white;
+}
+
+.hapolearn-messenger {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox {
+  background-color: white;
+  border-radius: 23px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text img {
+  height: 35px;
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text p, .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text .content .slogan-up, .content .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text .slogan-up, .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text .header-content .slogan-down, .header-content .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text .slogan-down {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #F1F0F0;
+  border-radius: 15px;
+  color: #505353;
+  -webkit-text-stroke: 0.3px;
+  font: 12px/17px "Open Sans";
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-text i {
+  color: #C4C4C4;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login p, .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login .content .slogan-up, .content .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login .slogan-up, .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login .header-content .slogan-down, .header-content .hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-login .slogan-down {
+  color: #B3B3B3;
+  text-align: center;
+  font: 12px/16px "Open Sans";
+}
+.hapolearn-messenger .hapolearn-messenger-chatbox .hapolearn-messenger-chatbox-name {
+  font: 12px/16px "Open Sans";
+  color: #7F7F7F;
+}
+.hapolearn-messenger .hapolearn-messenger-icon {
+  cursor: pointer;
+  z-index: 2;
+}
+.hapolearn-messenger .hapolearn-messenger-icon:hover {
+  transform: scale(1.1);
+}
+
+.hapolearn-messenger-btnlogin {
+  background: #3184F7;
+  border: 2px solid red;
+  border-radius: 20px;
+  font: 12px/16px "Open Sans";
+  color: white;
+}
+
+@font-face {
+  font-family: Open_sans;
+  src: url("../Font/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../Font/utm-bryantlg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: UTM BryantLG_B;
+  src: url("../Font/utm-bryantlg-b.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@media only screen and (max-width: 768px) {
+  .img-header img {
+    width: 300px;
+    height: 61.74px;
+  }
+
+  .menu-header li {
+    padding: 0;
+  }
+
+  .header-content {
+    height: 350px;
+  }
+  .header-content .content {
+    padding: 70px 0 0 0;
+    margin-left: -40px;
+  }
+  .header-content .content p, .header-content .content .slogan-up, .header-content .content .slogan-down {
+    font-size: 28px !important;
+  }
+  .header-content .content pre {
+    margin: -5px 0 0 -45px;
+    font-family: UTM BryantLG;
+    color: #505353;
+    font-size: 16px;
+  }
+  .header-content .content a {
+    font-size: 16px;
+    margin-top: -5px;
+    background-color: #B2D235;
+    height: 37.14px;
+    width: 200px;
+    border-radius: 35px;
+  }
+
+  .header-footer {
+    height: 122px;
+  }
+
+  .course {
+    margin-top: -70px !important;
+  }
+
+  .card {
+    height: 320px !important;
+  }
+  .card .image {
+    height: 131.25px !important;
+  }
+
+  .card-body .card-title {
+    font-size: 17.5px;
+    margin-top: -15px;
+  }
+  .card-body .card-text {
+    margin-top: -10px;
+    padding-bottom: 5px;
+    font-size: 13px;
+  }
+  .card-body a {
+    margin-top: -150px;
+    font-size: 10px;
+    padding: 5px 20px 7px 20px;
+    background-color: #B2D235;
+    height: 24.45px;
+    width: 116.42px;
+    border-radius: 35px;
+  }
+
+  .other-course {
+    margin: 40px 0 0 33%;
+    width: 230px;
+    height: 220px;
+  }
+  .other-course p, .other-course .content .slogan-up, .content .other-course .slogan-up, .other-course .header-content .slogan-down, .header-content .other-course .slogan-down {
+    font-size: 35px;
+  }
+
+  .all-of-course a {
+    font-size: 28px;
+  }
+
+  .why-hapolearn {
+    height: 420px;
+  }
+
+  .why-hapo-content {
+    margin-top: 0;
+  }
+  .why-hapo-content .menu {
+    margin-left: 0;
+  }
+  .why-hapo-content .menu ul li {
+    font-size: 16px;
+    list-style-image: url("../image/li-reponsive.png");
+  }
+
+  .feed-back-slogan .fb-slogan-up p, .feed-back-slogan .fb-slogan-up .content .slogan-up, .content .feed-back-slogan .fb-slogan-up .slogan-up, .feed-back-slogan .fb-slogan-up .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-up .slogan-down {
+    font-size: 40px;
+  }
+  .feed-back-slogan .fb-slogan-down p, .feed-back-slogan .fb-slogan-down .content .slogan-up, .content .feed-back-slogan .fb-slogan-down .slogan-up, .feed-back-slogan .fb-slogan-down .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-down .slogan-down {
+    font-size: 18px;
+  }
+
+  .start-learning {
+    margin-top: -100px;
+  }
+  .start-learning .start-learn-slogan p, .start-learning .start-learn-slogan .content .slogan-up, .content .start-learning .start-learn-slogan .slogan-up, .start-learning .start-learn-slogan .header-content .slogan-down, .header-content .start-learning .start-learn-slogan .slogan-down {
+    font-size: 35px;
+  }
+  .start-learning .btn-start-learning a {
+    font-size: 20px;
+    background-color: white;
+    height: 46.42px;
+    width: 250px;
+    border-radius: 35px;
+  }
+
+  .statistic-slogan {
+    font-size: 35px !important;
+  }
+
+  .statistic .menu-content {
+    font-size: 30px !important;
+  }
+  .statistic .number {
+    font-size: 30px !important;
+  }
+
+  .footer-text span {
+    font-size: 14px !important;
+  }
+
+  .menu-footer .menu-content a {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .img-header img {
+    margin-left: 65%;
+    width: 170px;
+    height: 35px;
+  }
+
+  .menu-header .nav-link {
+    font: normal bold 16px/22px "Open-sans" !important;
+    text-align: center;
+  }
+  .menu-header .nav-link:hover {
+    color: #B2D235 !important;
+    text-decoration: none;
+    background-color: white !important;
+    box-shadow: none;
+    border-radius: 17px;
+    transition: 0s;
+  }
+
+  .header-banner {
+    height: 510px;
+    background: linear-gradient(180deg, #FFFBFB 87.5%, #E7E9EE 100%);
+  }
+  .header-banner .header-content {
+    height: 200px;
+  }
+  .header-banner .header-content .content {
+    padding: 230px 0 0 12%;
+    margin-left: 0;
+  }
+  .header-banner .header-content .content p, .header-banner .header-content .content .slogan-up, .header-banner .header-content .content .slogan-down {
+    font-size: 22px !important;
+    padding-top: 0;
+  }
+  .header-banner .header-content .content .slogan-down img {
+    width: 27.16px;
+    height: 25.16px;
+  }
+  .header-banner .header-content .content pre {
+    margin: 0 0 0 -25px;
+    font-family: UTM BryantLG;
+    color: #505353;
+    font-size: 14px;
+  }
+  .header-banner .header-content .content a {
+    font-size: 16px;
+    padding: 12px 52px 12.52px 52px;
+    font-family: UTM BryantLG;
+    -webkit-text-stroke: 0.1px white;
+    background-color: #B2D235;
+    height: 37.14px;
+    width: 200px;
+    border-radius: 35px;
+  }
+
+  .header-footer {
+    height: 310px;
+    background: linear-gradient(180deg, #FFFBFB 87.5%, #E7E9EE 100%) !important;
+  }
+
+  .card {
+    width: 280px;
+    height: 360px !important;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .card .image {
+    height: 163px !important;
+  }
+
+  .frontend-course {
+    margin-top: 30px !important;
+  }
+
+  .card-body a {
+    font-size: 18px;
+    padding: 9px 37px 11px 36px;
+    background-color: #B2D235;
+    height: 200px;
+    width: 42px;
+    border-radius: 35px;
+  }
+
+  .other-course {
+    font-size: 38px;
+    margin: 20px 0 0 80px;
+    width: 243px;
+    height: 49px;
+  }
+
+  .all-of-course a {
+    font-size: 24px;
+  }
+  .all-of-course a img {
+    width: 33px;
+    height: 18px;
+  }
+
+  .why-hapolearn {
+    height: 569px;
+  }
+  .why-hapolearn .image img {
+    margin: -32% 0 -10px;
+  }
+  .why-hapolearn .why-header-slogan {
+    margin: -80px 0 0 280px;
+  }
+  .why-hapolearn .why-header-slogan p, .why-hapolearn .why-header-slogan .content .slogan-up, .content .why-hapolearn .why-header-slogan .slogan-up, .why-hapolearn .why-header-slogan .header-content .slogan-down, .header-content .why-hapolearn .why-header-slogan .slogan-down {
+    font-size: 35px;
+  }
+
+  .why-hapo-content .menu {
+    margin: 20px 0 0 20px;
+  }
+  .why-hapo-content .menu ul li {
+    font-size: 14px !important;
+  }
+
+  .feed-back-slogan .fb-slogan-up p, .feed-back-slogan .fb-slogan-up .content .slogan-up, .content .feed-back-slogan .fb-slogan-up .slogan-up, .feed-back-slogan .fb-slogan-up .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-up .slogan-down {
+    font-size: 35px;
+  }
+  .feed-back-slogan .fb-slogan-down p, .feed-back-slogan .fb-slogan-down .content .slogan-up, .content .feed-back-slogan .fb-slogan-down .slogan-up, .feed-back-slogan .fb-slogan-down .header-content .slogan-down, .header-content .feed-back-slogan .fb-slogan-down .slogan-down {
+    font-size: 16px;
+  }
+
+  .fb-content .fb-user-content p, .fb-content .fb-user-content .content .slogan-up, .content .fb-content .fb-user-content .slogan-up, .fb-content .fb-user-content .header-content .slogan-down, .header-content .fb-content .fb-user-content .slogan-down {
+    font-size: 14px;
+  }
+  .fb-content .user-comment b {
+    font-size: 16px;
+  }
+  .fb-content .user-comment p, .fb-content .user-comment .content .slogan-up, .content .fb-content .user-comment .slogan-up, .fb-content .user-comment .header-content .slogan-down, .header-content .fb-content .user-comment .slogan-down {
+    font-size: 14px;
+  }
+
+  .fb-user-content:before {
+    margin-top: 128px !important;
+  }
+
+  .start-learning {
+    margin-top: -100px;
+  }
+  .start-learning .start-learn-slogan p, .start-learning .start-learn-slogan .content .slogan-up, .content .start-learning .start-learn-slogan .slogan-up, .start-learning .start-learn-slogan .header-content .slogan-down, .header-content .start-learning .start-learn-slogan .slogan-down {
+    font-size: 23px;
+  }
+  .start-learning .start-learn-slogan .btn-start-learning a {
+    font-size: 18px;
+    background-color: white;
+    height: 37px;
+    width: 200px;
+    border-radius: 35px;
+  }
+
+  .statistic-slogan {
+    font-size: 30px !important;
+  }
+
+  .statistic .menu-content {
+    font-size: 25px !important;
+  }
+  .statistic .number {
+    font-size: 25px !important;
+  }
+
+  .footer-text {
+    margin-top: -50px !important;
+  }
+  .footer-text img {
+    width: 150px;
+    height: 31px;
+  }
+  .footer-text span {
+    font-size: 12px;
+  }
+
+  .footer-image {
+    margin-top: -80px;
+    margin-left: -20px;
+  }
+  .footer-image img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

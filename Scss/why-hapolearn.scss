@@ -1,0 +1,47 @@
+@import 'variable+mixin.scss';
+.why-hapolearn {
+  height: 740px;
+  background-image: url("../image/BG.png");
+
+  .image img {
+    margin-top: -55%;
+  }
+}
+
+.why-hapo-content {
+  margin-top: -8%;
+
+  .menu {
+    margin: 4% 0 0 21%;
+  }
+
+  .why-hapolearn-img {
+    margin-left: -7%;
+  }
+}
+
+.menu {
+  p {
+    color: $color;
+    font: normal bold 65px 'UTM BryantLG_B';
+    -webkit-text-stroke: 0.5px $color;
+  }
+  
+  li {
+    //list-style-image: url("../image/li.png");
+    list-style: none;
+    font: normal normal 21px 'UTM BryantLG';
+    letter-spacing: -0.05em;
+    color: $color;
+    -webkit-text-stroke: 0.5px $color;
+  }
+}
+
+.why-hapo-header {
+  .why-header-slogan p {
+    margin-left: -80px;
+    color: $color;
+    font: normal bold 45px 'UTM BryantLG_B';
+    -webkit-text-stroke: 0.5px $color;
+  }
+}

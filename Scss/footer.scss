@@ -1,0 +1,174 @@
+@import 'variable+mixin.scss';
+.hapolearn-footer {
+  background-color: $text_card_color;
+}
+
+.hapolearn-footer .menu a:hover {
+  -webkit-text-stroke-width: 1px;
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: -20px;
+  span {
+    font: 18px 'UTM BryantLG';
+    color: $color;
+    margin-top: -35px;
+  }
+}
+
+.menu-footer {
+  .menu-content {
+    ul {
+      list-style: none;
+     li a {
+        font: bold 20px 'UTM BryantLG';
+        color: $color;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+     
+    }
+  }
+}
+
+.footer-image ul {
+  list-style: none;
+}
+
+.footer-end {
+  background-color: #454545;
+  
+    font: 16px 'UTM BryantLG';
+    color: $color;
+  
+}
+
+.message {
+  width: 360px;
+  height: auto;
+  position: fixed;
+  margin: 0 20px 150px 0;
+  bottom: 0;
+  right: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+}
+
+.message-button img{
+  position: fixed;
+  margin-bottom: 200px;
+  margin-top: 1%;
+  margin-left: 14%;
+  cursor: pointer;
+}
+
+.message-box .message-button-out {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.message-button-out button {
+  font-weight: bold;
+}
+
+.message-box .message-button-out p {
+  font: normal 400 14px/16px 'Open-sans';
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #7F7F7F;
+  padding: 0 70px 0 60px;
+}
+
+.message-button-out img {
+  border-radius: 25px;
+  background: #C4C4C4;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-top: 7px;
+}
+
+.message .message-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+.message-content {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 13px;
+}
+
+.message-content img {
+  height: 44px;
+  width: 40px;
+  padding: 18px 3% 0 0;
+}
+
+.message-content .message-content-slogan {
+  background: #F1F0F0;
+  border-radius: 15px;
+  height: 50px;
+  width: 275px;
+  align-items: center;
+}
+
+.message-content .message-content-slogan p {
+  font: normal normal 14px/17px 'Open_sans';
+  letter-spacing: -0.02em;
+  color: #505353;
+  padding-left: 4%;
+}
+
+#box-chat .message-login {
+  margin-top: 15px;
+  width: 265px;
+  height: 37px;
+  background: #3184F7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 56px;
+}
+
+.message-login img {
+  height: 20px;
+  width: 25px;
+  padding-left: 7px;
+}
+
+.message {
+.message-login a {
+  font: normal 300 14px/16px 'Open_sans';
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 10px;  
+}
+}
+
+.message-footer p {
+  font: normal 14px/16px 'Open-sans';
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #B3B3B3;
+}
+
+.message-button :hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+
+
